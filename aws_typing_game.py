@@ -730,13 +730,13 @@ class Game:
         pygame.draw.rect(screen, BLUE, (0, 0, WIDTH, 8))
         pygame.draw.rect(screen, ORANGE, (0, 0, WIDTH, 4))
         
-        # ゲームオーバーテキスト
-        game_over_text = title_font.render("ゲームオーバー", True, RED)
+        # 結果発表テキスト
+        game_over_text = title_font.render("結果発表", True, ORANGE)
         screen.blit(game_over_text, (WIDTH//2 - game_over_text.get_width()//2, 80))
         
-        # AWS風の結果パネル
-        pygame.draw.rect(screen, (30, 35, 45), (WIDTH//2 - 400, 150, 800, 350), 0, 10)
-        pygame.draw.rect(screen, GRAY, (WIDTH//2 - 400, 150, 800, 350), 1, 10)
+        # AWS風の結果パネル - 高さを拡張
+        pygame.draw.rect(screen, (30, 35, 45), (WIDTH//2 - 400, 150, 800, 400), 0, 10)
+        pygame.draw.rect(screen, GRAY, (WIDTH//2 - 400, 150, 800, 400), 1, 10)
         
         # パネルヘッダー
         pygame.draw.rect(screen, BLUE, (WIDTH//2 - 400, 150, 800, 40), 0, 10, 10, 0, 0)
@@ -810,7 +810,7 @@ class Game:
         
         # メニューに戻る指示
         menu_text = score_font.render("ESCキーでメニューに戻る", True, LIGHT_GRAY)
-        screen.blit(menu_text, (WIDTH//2 - menu_text.get_width()//2, 480))
+        screen.blit(menu_text, (WIDTH//2 - menu_text.get_width()//2, 500))
         
         # AWS風のフッター
         pygame.draw.rect(screen, BLUE, (0, HEIGHT - 30, WIDTH, 30))
