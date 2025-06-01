@@ -1,2 +1,18 @@
+# キャッシュされたアイコン
+aws_icons_cache/
+
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+.env
 .venv
-.venv/*
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# OS関連
+.DS_Store
+Thumbs.db
