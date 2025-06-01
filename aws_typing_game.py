@@ -11,7 +11,7 @@ pygame.init()
 # 画面設定
 WIDTH, HEIGHT = 1000, 700  # ウィンドウサイズを拡大
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("AWS サービス名タイピングゲーム")
+pygame.display.set_caption("AWS Service Typing")
 
 # 色の定義 - AWS風の配色
 WHITE = (255, 255, 255)
@@ -523,25 +523,15 @@ class Game:
         screen.blit(aws_logo_text, (25, 15))
         
         # タイトル表示（中央配置、サイズ調整）
-        title_text = "AWS サービス名タイピングゲーム"
+        title_text = "AWS Service Typing"
         title = title_font.render(title_text, True, WHITE)
         title_width = title.get_width()
         screen.blit(title, (WIDTH//2 - title_width//2, 100))
         
-        # AWS風のアイコン装飾（シンプル化）
-        icon_size = 50
-        # 外側の菱形
-        pygame.draw.polygon(screen, ORANGE, [
-            (WIDTH//2 - icon_size, 200),
-            (WIDTH//2, 200 - icon_size),
-            (WIDTH//2 + icon_size, 200),
-            (WIDTH//2, 200 + icon_size)
-        ], 0)
-        
         # ゲーム説明テキスト（位置調整）
         desc_text = score_font.render("AWSサービス名のタイピングスキルを向上させよう！", True, LIGHT_GRAY)
         desc_width = desc_text.get_width()
-        screen.blit(desc_text, (WIDTH//2 - desc_width//2, 280))
+        screen.blit(desc_text, (WIDTH//2 - desc_width//2, 200))
         
         # スタートテキスト（背景なしで直接表示）
         start_text = game_font.render("スペースキーを押してスタート", True, ORANGE)
@@ -549,19 +539,19 @@ class Game:
         start_height = start_text.get_height()
         # 中央に配置
         start_x = WIDTH//2 - start_width//2
-        start_y = 330 + (45 - start_height)//2  # 元のボタン位置を基準に調整
+        start_y = 280 + (45 - start_height)//2  # 元のボタン位置を基準に調整
         screen.blit(start_text, (start_x, start_y))
         
         # ハイスコア表示（シンプル化、位置調整）
         if self.high_score > 0:
             high_score_text = score_font.render(f"ハイスコア: {self.high_score}", True, LIGHT_GRAY)
             high_score_width = high_score_text.get_width()
-            screen.blit(high_score_text, (WIDTH//2 - high_score_width//2, 400))
+            screen.blit(high_score_text, (WIDTH//2 - high_score_width//2, 350))
         
         # 操作説明（位置調整）
         instructions = score_font.render("ESCキーで終了", True, LIGHT_GRAY)
         instructions_width = instructions.get_width()
-        screen.blit(instructions, (WIDTH//2 - instructions_width//2, 450))
+        screen.blit(instructions, (WIDTH//2 - instructions_width//2, 400))
         
         # AWS風のフッター（シンプル化）
         pygame.draw.rect(screen, BLUE, (0, HEIGHT - 30, WIDTH, 30))
