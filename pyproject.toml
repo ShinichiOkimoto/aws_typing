@@ -1,0 +1,99 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aws-typing-game"
+version = "2.0.0"
+description = "Learn AWS services while improving your typing skills"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    {name = "AWS Typing Game Team"},
+]
+keywords = ["aws", "typing", "game", "education", "pygame"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Education",
+    "Topic :: Games/Entertainment :: Arcade",
+]
+dependencies = [
+    "pygame>=2.6.1",
+    "numpy>=1.21.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/aws-typing-game"
+Documentation = "https://github.com/yourusername/aws-typing-game#readme"
+Repository = "https://github.com/yourusername/aws-typing-game.git"
+"Bug Tracker" = "https://github.com/yourusername/aws-typing-game/issues"
+
+[project.scripts]
+aws-typing-game = "aws_typing_game.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+aws_typing_game = ["data/*.json"]
+
+[tool.black]
+line-length = 100
+target-version = ["py38"]
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 100
+known_first_party = ["aws_typing_game"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "mypy>=1.0.0",
+    "ruff>=0.1.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "C90", "I", "N", "UP", "S", "B", "A", "C4", "EM", "ISC", "PIE", "PT", "SIM", "TID", "PL"]
+ignore = ["E203", "E501", "S101"]  # Black compatibility, line length handled by formatter, allow assert
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101"]  # Allow assert in tests
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true

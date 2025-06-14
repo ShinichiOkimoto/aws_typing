@@ -1,0 +1,405 @@
+{
+  "categories": {
+    "computing": {
+      "services": ["EC2", "Lambda", "Batch", "Lightsail", "Outposts", "App Runner", "Elastic Beanstalk", "ParallelCluster"],
+      "sentences": [
+        "My <EC2> instance runs perfectly during every demo",
+        "<Lambda> cold starts warm my developer heart",
+        "<Batch> processing transforms data into pure gold",
+        "<Lightsail> gives you AWS power with startup simplicity",
+        "<Outposts> brings cloud magic to your data center",
+        "<App Runner> deploys faster than speed of thought",
+        "<Elastic Beanstalk> automates everything beautifully",
+        "<ParallelCluster> scales infinitely like my enthusiasm"
+      ],
+      "translations": {
+        "My EC2 instance runs perfectly during every demo": "私のEC2インスタンスは毎回のデモで完璧に動作します",
+        "Lambda cold starts warm my developer heart": "Lambdaのコールドスタートが開発者の心を温めます",
+        "Batch processing transforms data into pure gold": "Batch処理がデータを純金に変換します",
+        "Lightsail gives you AWS power with startup simplicity": "LightsailはスタートアップのシンプルさでAWSパワーを提供します",
+        "Outposts brings cloud magic to your data center": "Outpostsがクラウドの魔法をデータセンターにもたらします",
+        "App Runner deploys faster than speed of thought": "App Runnerは思考の速度より速くデプロイします",
+        "Elastic Beanstalk automates everything beautifully": "Elastic Beanstalkはすべてを美しく自動化します",
+        "ParallelCluster scales infinitely like my enthusiasm": "ParallelClusterは私の熱意のように無限にスケールします"
+      },
+      "descriptions": {
+        "EC2": "仮想サーバーを提供する基本的なコンピューティングサービス",
+        "Lambda": "サーバーレスでコードを実行できるコンピューティングサービス",
+        "Batch": "バッチコンピューティングジョブを効率的に実行するサービス",
+        "Lightsail": "シンプルな仮想プライベートサーバー(VPS)を提供するサービス",
+        "Outposts": "AWSインフラをオンプレミス環境に拡張するサービス",
+        "App Runner": "コンテナ化されたWebアプリケーションを簡単にデプロイするサービス",
+        "Elastic Beanstalk": "アプリケーションのデプロイと管理を自動化するサービス",
+        "ParallelCluster": "HPC（ハイパフォーマンスコンピューティング）クラスターを簡単に構築するサービス"
+      }
+    },
+    "containers": {
+      "services": ["ECS", "EKS", "Fargate", "ECR"],
+      "sentences": [
+        "<ECS> containers run smoother than silk threads",
+        "<EKS> orchestrates harmony like a symphony",
+        "<Fargate> magically manages servers while I relax",
+        "<ECR> stores docker images like precious treasures"
+      ],
+      "translations": {
+        "ECS containers run smoother than silk threads": "ECSコンテナは絹の糸よりも滑らかに動作します",
+        "EKS orchestrates harmony like a symphony": "EKSは交響曲のようにハーモニーをオーケストレーションします",
+        "Fargate magically manages servers while I relax": "Fargateは私がリラックスしている間に魔法のようにサーバーを管理します",
+        "ECR stores docker images like precious treasures": "ECRは貴重な宝物のようにDockerイメージを保存します"
+      },
+      "descriptions": {
+        "ECS": "コンテナ化されたアプリケーションを実行・管理するサービス",
+        "EKS": "マネージド型Kubernetesサービス",
+        "Fargate": "コンテナ向けのサーバーレスコンピューティングエンジン",
+        "ECR": "コンテナイメージを保存、管理、デプロイするレジストリサービス"
+      }
+    },
+    "storage": {
+      "services": ["S3", "EBS", "EFS", "FSx", "Storage Gateway", "Snow Family", "S3 Glacier"],
+      "sentences": [
+        "<S3> bucket names spark creativity like poetry",
+        "<EBS> volumes protect data like digital fortresses",
+        "<EFS> mounts seamlessly across all instances",
+        "<FSx> performance makes Windows fly like rockets",
+        "<Storage Gateway> bridges worlds with elegant grace",
+        "<Snow Family> transfers petabytes in truck-sized style",
+        "<S3 Glacier> preserves memories for future generations"
+      ],
+      "translations": {
+        "S3 bucket names spark creativity like poetry": "S3バケット名は詩のように創造性を刺激します",
+        "EBS volumes protect data like digital fortresses": "EBSボリュームはデジタル要塞のようにデータを保護します",
+        "EFS mounts seamlessly across all instances": "EFSはすべてのインスタンスにシームレスにマウントします",
+        "FSx performance makes Windows fly like rockets": "FSxのパフォーマンスがWindowsをロケットのように飛ばします",
+        "Storage Gateway bridges worlds with elegant grace": "Storage Gatewayは優雅に世界を橋渡しします",
+        "Snow Family transfers petabytes in truck-sized style": "Snow Familyはトラックサイズのスタイルでペタバイトを転送します",
+        "S3 Glacier preserves memories for future generations": "S3 Glacierは未来の世代のために思い出を保存します"
+      },
+      "descriptions": {
+        "S3": "スケーラブルなオブジェクトストレージサービス",
+        "EBS": "EC2インスタンス用のブロックストレージボリューム",
+        "EFS": "EC2インスタンス用のスケーラブルなファイルストレージ",
+        "FSx": "Windows、Lustre向けの高性能ファイルシステム",
+        "Storage Gateway": "オンプレミスとクラウドストレージを統合するサービス",
+        "Snow Family": "物理デバイスを使用した大量データ転送ソリューション",
+        "S3 Glacier": "長期アーカイブ向けの低コストストレージサービス"
+      }
+    },
+    "database": {
+      "services": ["RDS", "DynamoDB", "Aurora", "ElastiCache", "Neptune", "Redshift", "DocumentDB", "Timestream", "QLDB", "Aurora DSQL"],
+      "sentences": [
+        "<RDS> backups save the day like digital heroes",
+        "<DynamoDB> scales instantly like superhero powers",
+        "<Aurora> failover happens faster than lightning",
+        "<ElastiCache> speeds up apps like turbo boost",
+        "<Neptune> graphs connections beautifully like art",
+        "<Redshift> queries petabytes in record time",
+        "<DocumentDB> brings MongoDB joy to AWS cloud",
+        "<Timestream> stores time series data perfectly",
+        "<QLDB> creates immutable truth like blockchain",
+        "<Aurora DSQL> distributes magic across regions"
+      ],
+      "translations": {
+        "RDS backups save the day like digital heroes": "RDSバックアップはデジタルヒーローのようにその日を救います",
+        "DynamoDB scales instantly like superhero powers": "DynamoDBはスーパーヒーローの力のように瞬時にスケールします",
+        "Aurora failover happens faster than lightning": "Auroraのフェイルオーバーは稲妻より速く発生します",
+        "ElastiCache speeds up apps like turbo boost": "ElastiCacheはターボブーストのようにアプリを高速化します",
+        "Neptune graphs connections beautifully like art": "Neptuneは芸術のように美しく接続をグラフ化します",
+        "Redshift queries petabytes in record time": "Redshiftは記録的な時間でペタバイトをクエリします",
+        "DocumentDB brings MongoDB joy to AWS cloud": "DocumentDBはAWSクラウドにMongoDBの喜びをもたらします",
+        "Timestream stores time series data perfectly": "Timestreamは時系列データを完璧に保存します",
+        "QLDB creates immutable truth like blockchain": "QLDBはブロックチェーンのように不変の真実を作成します",
+        "Aurora DSQL distributes magic across regions": "Aurora DSQLは魔法を地域全体に分散します"
+      },
+      "descriptions": {
+        "RDS": "リレーショナルデータベースを簡単に設定・運用・スケールするサービス",
+        "DynamoDB": "フルマネージド型NoSQLデータベースサービス",
+        "Aurora": "MySQLおよびPostgreSQLと互換性のある高性能データベース",
+        "ElastiCache": "インメモリキャッシュを提供するサービス",
+        "Neptune": "グラフデータベースサービス",
+        "Redshift": "データウェアハウスサービス",
+        "DocumentDB": "MongoDBと互換性のあるドキュメントデータベース",
+        "Timestream": "時系列データベースサービス",
+        "QLDB": "台帳データベースサービス",
+        "Aurora DSQL": "サーバーレスで分散されたSQLデータベース"
+      }
+    },
+    "networking": {
+      "services": ["VPC", "CloudFront", "Route53", "API Gateway", "Direct Connect", "Global Accelerator", "Transit Gateway"],
+      "sentences": [
+        "<VPC> security groups protect like digital shields",
+        "<CloudFront> delivers content at speed of light",
+        "<Route53> DNS propagates faster than gossip",
+        "<API Gateway> manages millions of requests gracefully",
+        "<Direct Connect> provides dedicated highway to cloud",
+        "<Global Accelerator> turbocharges apps worldwide",
+        "<Transit Gateway> connects networks like magic bridges"
+      ],
+      "translations": {
+        "VPC security groups protect like digital shields": "VPCセキュリティグループはデジタルシールドのように保護します",
+        "CloudFront delivers content at speed of light": "CloudFrontは光速でコンテンツを配信します",
+        "Route53 DNS propagates faster than gossip": "Route53のDNSは噂話より速く伝播します",
+        "API Gateway manages millions of requests gracefully": "API Gatewayは何百万ものリクエストを優雅に管理します",
+        "Direct Connect provides dedicated highway to cloud": "Direct Connectはクラウドへの専用高速道路を提供します",
+        "Global Accelerator turbocharges apps worldwide": "Global Acceleratorは世界中でアプリをターボチャージします",
+        "Transit Gateway connects networks like magic bridges": "Transit Gatewayは魔法の橋のようにネットワークを接続します"
+      },
+      "descriptions": {
+        "VPC": "仮想ネットワークを作成・管理するサービス",
+        "CloudFront": "コンテンツ配信ネットワーク(CDN)サービス",
+        "Route53": "スケーラブルなDNSウェブサービス",
+        "API Gateway": "APIの作成、公開、維持、監視、保護を行うサービス",
+        "Direct Connect": "AWSへの専用ネットワーク接続を提供するサービス",
+        "Global Accelerator": "アプリケーションの可用性と性能を向上させるサービス",
+        "Transit Gateway": "VPCとオンプレミスネットワークを接続するサービス"
+      }
+    },
+    "security": {
+      "services": ["IAM", "Cognito", "WAF", "Shield", "GuardDuty", "Inspector", "Macie", "Detective", "Security Hub", "Verified Permissions"],
+      "sentences": [
+        "<IAM> policies grant powers like digital wizards",
+        "<Cognito> authentication works smoothly every time",
+        "<WAF> blocks attacks like a cyber guardian",
+        "<Shield> deflects DDoS like Captain America",
+        "<GuardDuty> detects threats like Sherlock Holmes",
+        "<Inspector> finds issues before they cause trouble",
+        "<Macie> protects sensitive data like Fort Knox",
+        "<Detective> solves mysteries faster than Batman",
+        "<Security Hub> keeps everything secure and organized",
+        "<Verified Permissions> manages access with precision"
+      ],
+      "translations": {
+        "IAM policies grant powers like digital wizards": "IAMポリシーはデジタル魔法使いのような力を付与します",
+        "Cognito authentication works smoothly every time": "Cognito認証は毎回スムーズに動作します",
+        "WAF blocks attacks like a cyber guardian": "WAFはサイバーガーディアンのように攻撃をブロックします",
+        "Shield deflects DDoS like Captain America": "ShieldはキャプテンアメリカのようにDDoSを跳ね返します",
+        "GuardDuty detects threats like Sherlock Holmes": "GuardDutyはシャーロック・ホームズのように脅威を検出します",
+        "Inspector finds issues before they cause trouble": "Inspectorは問題が発生する前に発見します",
+        "Macie protects sensitive data like Fort Knox": "Macieはフォートノックスのように機密データを保護します",
+        "Detective solves mysteries faster than Batman": "Detectiveはバットマンより速く謎を解決します",
+        "Security Hub keeps everything secure and organized": "Security Hubはすべてを安全で整理された状態に保ちます",
+        "Verified Permissions manages access with precision": "Verified Permissionsは正確にアクセスを管理します"
+      },
+      "descriptions": {
+        "IAM": "AWSリソースへのアクセスを安全に制御するサービス",
+        "Cognito": "ウェブ・モバイルアプリに認証機能を追加するサービス",
+        "WAF": "ウェブアプリケーションを保護するファイアウォール",
+        "Shield": "DDoS攻撃からアプリケーションを保護するサービス",
+        "GuardDuty": "インテリジェントな脅威検出サービス",
+        "Inspector": "自動セキュリティ評価サービス",
+        "Macie": "機密データの自動検出と保護を行うサービス",
+        "Detective": "セキュリティ問題の分析と調査を支援するサービス",
+        "Security Hub": "セキュリティアラートと状態を一元管理するサービス",
+        "Verified Permissions": "アプリケーションのアクセス制御と権限管理サービス"
+      }
+    },
+    "management": {
+      "services": ["CloudWatch", "CloudFormation", "CloudTrail", "Config", "Systems Manager", "Control Tower", "Organizations"],
+      "sentences": [
+        "<CloudWatch> monitors metrics like a caring friend",
+        "<CloudFormation> deploys infrastructure like magic",
+        "<CloudTrail> tracks every action for perfect audit",
+        "<Config> ensures compliance with gentle guidance",
+        "<Systems Manager> patches systems while you sleep",
+        "<Control Tower> creates well-architected foundations",
+        "<Organizations> simplifies billing like a helpful accountant"
+      ],
+      "translations": {
+        "CloudWatch monitors metrics like a caring friend": "CloudWatchは思いやりのある友人のようにメトリクスを監視します",
+        "CloudFormation deploys infrastructure like magic": "CloudFormationは魔法のようにインフラをデプロイします",
+        "CloudTrail tracks every action for perfect audit": "CloudTrailは完璧な監査のためにすべてのアクションを追跡します",
+        "Config ensures compliance with gentle guidance": "Configは優しいガイダンスでコンプライアンスを確保します",
+        "Systems Manager patches systems while you sleep": "Systems Managerはあなたが眠っている間にシステムにパッチを当てます",
+        "Control Tower creates well-architected foundations": "Control Towerは良く設計された基盤を作成します",
+        "Organizations simplifies billing like a helpful accountant": "Organizationsは親切な会計士のように請求を簡素化します"
+      },
+      "descriptions": {
+        "CloudWatch": "AWSリソースとアプリケーションの監視サービス",
+        "CloudFormation": "AWSリソースをテンプレートで管理するサービス",
+        "CloudTrail": "AWSアカウントのガバナンス、コンプライアンス、監査を支援するサービス",
+        "Config": "AWSリソースの設定を評価・監査・管理するサービス",
+        "Systems Manager": "AWSリソースを一元管理するサービス",
+        "Control Tower": "複数のAWSアカウントを設定・管理するサービス",
+        "Organizations": "複数のAWSアカウントを一元管理するサービス"
+      }
+    },
+    "developer_tools": {
+      "services": ["CodeCommit", "CodeBuild", "CodeDeploy", "CodePipeline", "CodeStar", "Cloud9", "X-Ray", "Application Composer"],
+      "sentences": [
+        "<CodeCommit> keeps code safe like a digital vault",
+        "<CodeBuild> builds projects faster than coffee brews",
+        "<CodeDeploy> releases updates smooth as butter",
+        "<CodePipeline> automates CI/CD like clockwork",
+        "<CodeStar> kickstarts projects with amazing templates",
+        "<Cloud9> IDE runs anywhere like coding paradise",
+        "<X-Ray> reveals performance insights like x-ray vision",
+        "<Application Composer> creates architectures visually"
+      ],
+      "translations": {
+        "CodeCommit keeps code safe like a digital vault": "CodeCommitはデジタル金庫のようにコードを安全に保ちます",
+        "CodeBuild builds projects faster than coffee brews": "CodeBuildはコーヒーが淹れられるより速くプロジェクトをビルドします",
+        "CodeDeploy releases updates smooth as butter": "CodeDeployはバターのように滑らかにアップデートをリリースします",
+        "CodePipeline automates CI/CD like clockwork": "CodePipelineは時計仕掛けのようにCI/CDを自動化します",
+        "CodeStar kickstarts projects with amazing templates": "CodeStarは素晴らしいテンプレートでプロジェクトを開始します",
+        "Cloud9 IDE runs anywhere like coding paradise": "Cloud9 IDEはコーディングパラダイスのようにどこでも動作します",
+        "X-Ray reveals performance insights like x-ray vision": "X-Rayは透視能力のようにパフォーマンスの洞察を明らかにします",
+        "Application Composer creates architectures visually": "Application Composerは視覚的にアーキテクチャを作成します"
+      },
+      "descriptions": {
+        "CodeCommit": "プライベートGitリポジトリを提供するサービス",
+        "CodeBuild": "ソースコードをコンパイルしてテストを実行し、パッケージを作成するサービス",
+        "CodeDeploy": "コードデプロイを自動化するサービス",
+        "CodePipeline": "継続的デリバリーサービス",
+        "CodeStar": "クラウドアプリケーションの開発、ビルド、デプロイを支援するサービス",
+        "Cloud9": "クラウドベースの統合開発環境(IDE)",
+        "X-Ray": "アプリケーションの分析とデバッグを支援するサービス",
+        "Application Composer": "ビジュアルアプリケーションビルダー・設計ツール"
+      }
+    },
+    "analytics": {
+      "services": ["Athena", "EMR", "Kinesis", "QuickSight", "Glue", "Lake Formation", "Data Exchange", "DataZone"],
+      "sentences": [
+        "<Athena> queries data lakes at lightning speed",
+        "<EMR> processes big data like a supercomputer",
+        "<Kinesis> streams real-time data perfectly",
+        "<QuickSight> creates dashboards that dazzle minds",
+        "<Glue> discovers data patterns automatically",
+        "<Lake Formation> simplifies data lake creation",
+        "<Data Exchange> marketplace offers data treasures",
+        "<DataZone> governs data with wisdom and grace"
+      ],
+      "translations": {
+        "Athena queries data lakes at lightning speed": "Athenaは光速でデータレイクをクエリします",
+        "EMR processes big data like a supercomputer": "EMRはスーパーコンピュータのようにビッグデータを処理します",
+        "Kinesis streams real-time data perfectly": "Kinesisはリアルタイムデータを完璧にストリーミングします",
+        "QuickSight creates dashboards that dazzle minds": "QuickSightは心を魅了するダッシュボードを作成します",
+        "Glue discovers data patterns automatically": "Glueは自動的にデータパターンを発見します",
+        "Lake Formation simplifies data lake creation": "Lake Formationはデータレイクの作成を簡素化します",
+        "Data Exchange marketplace offers data treasures": "Data Exchangeマーケットプレイスはデータの宝物を提供します",
+        "DataZone governs data with wisdom and grace": "DataZoneは知恵と優雅さでデータを統治します"
+      },
+      "descriptions": {
+        "Athena": "S3のデータに対してSQLクエリを実行するサービス",
+        "EMR": "ビッグデータフレームワークを実行するサービス",
+        "Kinesis": "リアルタイムのデータストリーミング処理サービス",
+        "QuickSight": "ビジネスインテリジェンスサービス",
+        "Glue": "ETL(抽出、変換、ロード)サービス",
+        "Lake Formation": "データレイクを簡単に設定するサービス",
+        "Data Exchange": "クラウドでデータ製品を検索、購読、使用するサービス",
+        "DataZone": "データガバナンスとカタログ化を行うデータ管理サービス"
+      }
+    },
+    "machine_learning": {
+      "services": ["SageMaker", "Rekognition", "Comprehend", "Lex", "Polly", "Textract", "Forecast", "Kendra", "Bedrock", "Q"],
+      "sentences": [
+        "<SageMaker> trains models like AI masterchef",
+        "<Rekognition> identifies objects with eagle eyes",
+        "<Comprehend> understands language like a linguist",
+        "<Lex> creates chatbots that actually help",
+        "<Polly> speaks naturally in multiple languages",
+        "<Textract> extracts text perfectly from documents",
+        "<Forecast> predicts future with crystal clarity",
+        "<Kendra> finds answers like a genius librarian",
+        "<Bedrock> generates content with AI brilliance",
+        "<Q> writes code faster than typing speed"
+      ],
+      "translations": {
+        "SageMaker trains models like AI masterchef": "SageMakerはAIマスターシェフのようにモデルを訓練します",
+        "Rekognition identifies objects with eagle eyes": "Rekognitionは鷹の目でオブジェクトを識別します",
+        "Comprehend understands language like a linguist": "Comprehendは言語学者のように言語を理解します",
+        "Lex creates chatbots that actually help": "Lexは実際に役立つチャットボットを作成します",
+        "Polly speaks naturally in multiple languages": "Pollyは複数の言語で自然に話します",
+        "Textract extracts text perfectly from documents": "Textractは文書からテキストを完璧に抽出します",
+        "Forecast predicts future with crystal clarity": "Forecastは水晶のような明瞭さで未来を予測します",
+        "Kendra finds answers like a genius librarian": "Kendraは天才司書のように答えを見つけます",
+        "Bedrock generates content with AI brilliance": "BedrockはAIの輝きでコンテンツを生成します",
+        "Q writes code faster than typing speed": "Qはタイピング速度より速くコードを書きます"
+      },
+      "descriptions": {
+        "SageMaker": "機械学習モデルの構築、トレーニング、デプロイを支援するサービス",
+        "Rekognition": "画像・動画分析サービス",
+        "Comprehend": "自然言語処理サービス",
+        "Lex": "会話型インターフェイスを構築するサービス",
+        "Polly": "テキストを音声に変換するサービス",
+        "Textract": "ドキュメントからテキストやデータを抽出するサービス",
+        "Forecast": "時系列予測サービス",
+        "Kendra": "機械学習を活用した検索サービス",
+        "Bedrock": "基盤モデル（Foundation Models）を提供するAIサービス",
+        "Q": "AI駆動のビジネス分析・コーディングアシスタント"
+      }
+    },
+    "messaging": {
+      "services": ["SNS", "SQS", "EventBridge", "Step Functions", "MQ"],
+      "sentences": [
+        "<SNS> delivers notifications reliably everywhere",
+        "<SQS> queues messages perfectly in order",
+        "<EventBridge> orchestrates events like a maestro",
+        "<Step Functions> workflows run flawlessly every time",
+        "<MQ> handles messages with enterprise reliability"
+      ],
+      "translations": {
+        "SNS delivers notifications reliably everywhere": "SNSは通知をどこでも確実に配信します",
+        "SQS queues messages perfectly in order": "SQSはメッセージを完璧に順序通りにキューイングします",
+        "EventBridge orchestrates events like a maestro": "EventBridgeはマエストロのようにイベントをオーケストレーションします",
+        "Step Functions workflows run flawlessly every time": "Step Functionsワークフローは毎回完璧に実行されます",
+        "MQ handles messages with enterprise reliability": "MQはエンタープライズレベルの信頼性でメッセージを処理します"
+      },
+      "descriptions": {
+        "SNS": "通知サービス",
+        "SQS": "メッセージキューイングサービス",
+        "EventBridge": "イベント駆動型アプリケーションを構築するサービス",
+        "Step Functions": "分散アプリケーションのワークフローを調整するサービス",
+        "MQ": "マネージド型メッセージブローカーサービス"
+      }
+    },
+    "mobile": {
+      "services": ["Amplify", "AppSync", "Device Farm"],
+      "sentences": [
+        "<Amplify> builds full-stack apps in minutes",
+        "<AppSync> syncs data instantly across devices",
+        "<Device Farm> tests apps on real devices perfectly"
+      ],
+      "translations": {
+        "Amplify builds full-stack apps in minutes": "Amplifyは数分でフルスタックアプリを構築します",
+        "AppSync syncs data instantly across devices": "AppSyncはデバイス間でデータを瞬時に同期します",
+        "Device Farm tests apps on real devices perfectly": "Device Farmは実際のデバイスでアプリを完璧にテストします"
+      },
+      "descriptions": {
+        "Amplify": "モバイル・ウェブアプリケーションの構築と展開を支援するサービス",
+        "AppSync": "リアルタイムデータ同期とオフラインプログラミング機能を提供するサービス",
+        "Device Farm": "実際のデバイスでモバイルアプリをテストするサービス"
+      }
+    },
+    "others": {
+      "services": ["WorkSpaces", "Connect", "Managed Blockchain", "IoT Core", "Ground Station"],
+      "sentences": [
+        "<WorkSpaces> delivers desktop anywhere seamlessly",
+        "<Connect> handles customer calls brilliantly",
+        "<Managed Blockchain> creates blockchain networks easily",
+        "<IoT Core> connects billions of devices reliably",
+        "<Ground Station> downloads satellite data on demand"
+      ],
+      "translations": {
+        "WorkSpaces delivers desktop anywhere seamlessly": "WorkSpacesはどこでもシームレスにデスクトップを提供します",
+        "Connect handles customer calls brilliantly": "Connectは顧客からの電話を見事に処理します",
+        "Managed Blockchain creates blockchain networks easily": "Managed Blockchainはブロックチェーンネットワークを簡単に作成します",
+        "IoT Core connects billions of devices reliably": "IoT Coreは数十億のデバイスを確実に接続します",
+        "Ground Station downloads satellite data on demand": "Ground Stationはオンデマンドで衛星データをダウンロードします"
+      },
+      "descriptions": {
+        "WorkSpaces": "クラウドデスクトップサービス",
+        "Connect": "クラウドコンタクトセンターサービス",
+        "Managed Blockchain": "ブロックチェーンネットワークを作成・管理するサービス",
+        "IoT Core": "IoTデバイスをクラウドに接続するサービス",
+        "Ground Station": "衛星通信のためのフルマネージドサービス"
+      }
+    }
+  },
+  "metadata": {
+    "total_services": 81,
+    "total_sentences": 83,
+    "source_file": "aws_typing_game.py",
+    "extracted_date": "2024-06-04",
+    "updated_date": "2025-01-05",
+    "description": "Comprehensive AWS service data for the typing game including service names, typing sentences, Japanese translations, and service descriptions organized by categories. Updated with 6 new services: Bedrock, Q, ParallelCluster, DataZone, Application Composer, Aurora DSQL, and Verified Permissions."
+  }
+}

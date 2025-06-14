@@ -1,10 +1,15 @@
-# キャッシュされたアイコン
-aws_icons_cache/
-
 # Python関連
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+*.wheel
+
+# 仮想環境
 .env
 .venv
 env/
@@ -13,6 +18,58 @@ ENV/
 env.bak/
 venv.bak/
 
+# IDE/エディター関連
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+
+# テスト/カバレッジ関連
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage.*
+
 # OS関連
 .DS_Store
+.DS_Store?
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ログファイル
+*.log
+logs/
+
+# 一時ファイル
+*.tmp
+*.temp
+.tmp/
+
+# ゲーム関連の動的ファイル
+save_data.json
+*.save
+
+# パッケージマネージャー関連
+.uv/
+# uvのロックファイルはコミットする（依存関係の再現性のため）
+# uv.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# 削除されたキャッシュ項目（不要になったため）
+# aws_icons_cache/
